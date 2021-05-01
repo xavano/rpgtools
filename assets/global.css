@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	--mainDark: #26282b;
+	--lightDark: #353941;
+	--mainBlue: #5f85db;
+	--lightBlue: #90b8f8;
+}
+
+html,
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: var(--lightBlue);
+	background: var(--lightDark);
+}
+
+html,
+body,
+.outer-wrapper,
+.wrapper {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+section p {
+	color: var(--mainBlue);
+}
+
+a {
+	color: rgb(0, 100, 200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0, 80, 160);
+}
+
+label {
+	display: block;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+input,
+button,
+select {
+	color: var(--lightBlue);
+	background: var(--lightDark);
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	border: none;
+	outline: none;
+	font-size: 18px;
+}
+
+button {
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(transparent, var(--lightBlue));
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(transparent, var(--mainBlue));
+}
+
+.intro {
+	width: 60%;
+	padding: 50px;
+	background-color: var(--mainDark);
+	text-align: center;
+}
+
+code {
+	background-color: var(--lightDark);
+	padding: 3px;
+}
+
+@media (max-width: 600px) {
+	input,
+	button,
+	select {
+		padding: 0.2em;
+		font-size: 0.9em;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+
+	::-webkit-scrollbar {
+		width: 0;
+	}
+
+	.intro {
+		width: 90%;
+	}
+}

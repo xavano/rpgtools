@@ -1,0 +1,15 @@
+{
+  "background_color": "#353941",
+  "theme_color": "#5f85db",
+  "name": "RPG Tools",
+  "short_name": "RPG Tools",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/img/doomhammer.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ]
+}
