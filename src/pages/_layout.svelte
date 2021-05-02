@@ -27,7 +27,7 @@
 		min-height: 77vh;
 		width: 100%;
 		height: 100%;
-		background-image: url("./img/2.jpg");
+		background-image: url("/img/2.jpg");
 		background-repeat: no-repeat;
 		background-position: 20% 65%;
 		background-size: cover;
